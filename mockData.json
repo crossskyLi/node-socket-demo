@@ -1,0 +1,228 @@
+{
+  "data": {
+    "camera": {
+      "address": "http://admin:Camerasenset1me@10.9.189.28:37777",
+      "affiliation": [
+        0,
+        1,
+        7
+      ],
+      "cameraId": 30,
+      "code": "5678_30",
+      "group": {
+        "id": 7,
+        "name": "三种视频源",
+        "path": "0-1-7-",
+        "serial": "d85183542c8549a9b8980eb30887a3f9",
+        "zoomLevel": 17
+      },
+      "id": 100030,
+      "name": "IVA-10.9.189.28-广州洗浴中心",
+      "path": "0-1-7-",
+      "position": {
+        "latitude": 23.20789,
+        "longitude": 113.24953
+      },
+      "regionId": 5678,
+      "serial": "5678_30",
+      "type": 3
+    },
+    "cameraStatistics": {
+      "alarmAllCount": 8626,
+      "alarmCount": 1148,
+      "alarmCountByHour": 173,
+      "detectAllCount": 15359,
+      "detectCount": 2811,
+      "detectCountByHour": 328
+    },
+    "capturedTime": 1562311902000,
+    "detectType": "ALARM",
+    "faceInfo": {
+      "angle": {
+        "pitch": 0.0,
+        "roll": 0.0,
+        "yaw": 0.0
+      },
+      "end": {
+        "x": 1773,
+        "y": 473
+      },
+      "image": {
+        "height": 1080,
+        "url": "http://10.111.32.81:18181/g1/M00/05/D4/Cm8gUV0e_OKACDVVAAAqMpJ8AmA423.jpg",
+        "width": 1920
+      },
+      "metaType": "NEW",
+      "quality": -1.0,
+      "start": {
+        "x": 1676,
+        "y": 377
+      },
+      "trackId": -1532637820
+    },
+    "image": {
+      "height": 1080,
+      "url": "http://10.111.32.81:18181/g1/M01/05/D4/Cm8gUV0e_OKATdDpAAJ9xVttRI4003.jpg",
+      "width": 1920
+    },
+    "index": "5678_30--1532637820",
+    "platform": "VIPER",
+    "receivedTime": 1562311905000,
+    "taskInfos": [
+      {
+        "accurateThreshold": 0.95,
+        "detectType": "ALARM",
+        "id": "4",
+        "index": "5678_30-1532637820",
+        "metaType": "NEW",
+        "name": "银色小船摇摇晃晃弯弯 悬在绒绒的天上",
+        "recognisedInfos": [
+          {
+            "accurateThreshold": 0.95,
+            "similars": [
+              {
+                "score": 0.98056287,
+                "target": {
+                  "address": "",
+                  "aliasname": "",
+                  "birthday": 1057280366000,
+                  "createTime": 1562047889000,
+                  "featureId": "676db6c014ba4bc18a7bc62aba74400100000000000058c0",
+                  "gender": 2,
+                  "id": 408,
+                  "identityId": "",
+                  "level": "",
+                  "name": "李妃",
+                  "nation": "",
+                  "nationality": "",
+                  "remark": "哈哈哈",
+                  "serial": "676db6c014ba4bc18a7bc62aba74400100000000000058c0",
+                  "snative": "110105",
+                  "tarAttribute": 2,
+                  "tarLibName": "冷宫1",
+                  "tarLibSerial": "676db6c0-14ba-4bc1-8a7b-c62aba744000",
+                  "url": "http://10.111.32.46:30080/components/osg-default/_/sfd_676db6c014ba4bc18a7bc62aba744000/20190702-3b079e49-00a580ae00bc9-00000020-0000be08"
+                }
+              }
+            ],
+            "targetLibrary": {
+              "attribute": 2,
+              "id": 7,
+              "ip": "10.111.32.46",
+              "isPrivate": 0,
+              "name": "冷宫1",
+              "platformType": 2,
+              "port": 30080,
+              "secondType": 1,
+              "serial": "676db6c0-14ba-4bc1-8a7b-c62aba744000",
+              "type": 1,
+              "updateTime": 1562201966000
+            },
+            "threshold": 0.8621
+          },
+          {
+            "accurateThreshold": 0.95,
+            "similars": [],
+            "targetLibrary": {
+              "attribute": 2,
+              "id": 10,
+              "ip": "10.111.32.46",
+              "isPrivate": 0,
+              "name": "外星人",
+              "platformType": 2,
+              "port": 30080,
+              "secondType": 1,
+              "serial": "b1c8800e-ea21-4bcc-a4f5-a5af548c3000",
+              "type": 1,
+              "updateTime": 1562202009000
+            },
+            "threshold": 0.8621
+          }
+        ],
+        "serial": "cf7e7e8d2514490eb0228e7f3cd89bb0",
+        "taskStatistics": {
+          "alarmAllCount": 3583,
+          "alarmCount": 696,
+          "alarmCountByHour": 102,
+          "detectAllCount": 37884,
+          "detectCount": 5943,
+          "detectCountByHour": 576
+        },
+        "threshold": 0.8621
+      },
+      {
+        "accurateThreshold": 0.95,
+        "detectType": "ALARM",
+        "id": "5",
+        "index": "5678_30-1532637820",
+        "metaType": "NEW",
+        "name": "离人放逐到边界 彷佛走入第五个季节",
+        "recognisedInfos": [
+          {
+            "accurateThreshold": 0.95,
+            "similars": [
+              {
+                "score": 0.98564416,
+                "target": {
+                  "address": "",
+                  "aliasname": "",
+                  "birthday": 737740800000,
+                  "createTime": 1561602704000,
+                  "featureId": "f73684909b7f4d2e80cce61a995db0010000000000005703",
+                  "gender": 1,
+                  "id": 188,
+                  "identityId": "44172119930519447X",
+                  "level": "",
+                  "name": "李鑫根",
+                  "nation": "",
+                  "nationality": "",
+                  "remark": "",
+                  "serial": "sfd_f73684909b7f4d2e80cce61a995db000/20190627-b1e6602c-00a580ae004b0-00000020-00086d28",
+                  "snative": "441721",
+                  "tarAttribute": 2,
+                  "tarLibName": "测试组啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊",
+                  "tarLibSerial": "f7368490-9b7f-4d2e-80cc-e61a995db000",
+                  "url": "http://10.111.32.46:30080/components/osg-default/_/sfd_f73684909b7f4d2e80cce61a995db000/20190627-b1e6602c-00a580ae004b0-00000020-00086d28"
+                }
+              }
+            ],
+            "targetLibrary": {
+              "attribute": 2,
+              "id": 5,
+              "ip": "10.111.32.46",
+              "isPrivate": 0,
+              "name": "测试组啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊",
+              "platformType": 2,
+              "port": 30080,
+              "secondType": 1,
+              "serial": "f7368490-9b7f-4d2e-80cc-e61a995db000",
+              "type": 1,
+              "updateTime": 1562201988000
+            },
+            "threshold": 0.8079
+          }
+        ],
+        "serial": "7e341923a68349a9969ee2169c01d3c8",
+        "taskStatistics": {
+          "alarmAllCount": 742,
+          "alarmCount": 604,
+          "alarmCountByHour": 90,
+          "detectAllCount": 3696,
+          "detectCount": 2771,
+          "detectCountByHour": 328
+        },
+        "threshold": 0.8079
+      }
+    ],
+    "totalStatistics": {
+      "alarmCount": 2095,
+      "alarmCountByHour": 264,
+      "allAlarmCount": 67320,
+      "allDetectCount": 134462,
+      "detectCount": 10041
+    },
+    "trackAlarmCount": 1
+  },
+  "errorCode": 0,
+  "errorMsg": "success"
+}
