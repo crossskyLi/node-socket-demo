@@ -1,0 +1,8 @@
+{
+  "errorCode": 0,
+  "errorMsg": "success",
+  "data": {
+    "msg": "服务端的消息，你能回调吗",
+    "topic":"alarm"
+  }
+}

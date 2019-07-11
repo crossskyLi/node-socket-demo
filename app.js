@@ -2,10 +2,12 @@ const express = require('express'); //express框架模块
 const path = require('path'); //系统路径模块
 const http = require('http'); //系统路径模块
 const sockjs = require('sockjs');
-const mockData = require("./mockData.json");
 const hostName = '127.0.0.1'; //ip
 const port = 10221; //端口
 // 1. sockjs options
+const mockData = require("./mockData.json");
+const simplemockdata = require("./simplemockdata.json");
+const unsubscribeMsg = require('./mockUnsubscrirbe.js');
 const sockjs_opts = {
   prefix: '/senseface/stomp'
 };
@@ -35,6 +37,12 @@ sockjs_echo.on('connection', function (conn) {
   conn.on('data', function (message) {
     var timer
     const { intervalTimer, connector } = connFunction(conn)();
+    // setTimeout(() => {
+    // conn.write(JSON.stringify(simplemockdata))
+    // conn.write(unsubscribeMsg)
+    // }, 1000)
+
+    // console.log(message,'来消息啦')
     // !timer && (timer = setTimeout(() => {
     //   intervalTimer && clearInterval(intervalTimer);
     //   connector.end();
@@ -49,8 +57,11 @@ function connFunction(conn) {
   return function () {
     if (!intervalTimer) {
       intervalTimer = setInterval(() => {
-        conn.write && conn.write(JSON.stringify(mockData))
-      }, 10)
+        // conn.write && conn.write(JSON.stringify(mockData))
+        // conn.write && conn.write(unsubscribeMsg)
+        simplemockdata.time = new Date().getTime()
+        conn.write && conn.write(JSON.stringify(simplemockdata))
+      }, 1000)
     }
     return {
       intervalTimer,
@@ -60,6 +71,6 @@ function connFunction(conn) {
 }
 
 server.listen(port, '0.0.0.0', () => {
-  console.log(` [*] Listening on 0.0.0.0:${port}`);
+  console.log(` [*] Listening on 127.0.0.1:${port}`);
 });
 

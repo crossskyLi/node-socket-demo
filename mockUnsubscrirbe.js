@@ -1,0 +1,1 @@
+module.exports = "MESSAGE\ndestination:/subscribe\ncontent-type:application/json;charset=UTF-8\nsubscription:sub-0\nmessage-id:kd31zy1m-0\ncontent-length:138\n\n{\"data\":{\"serial\":\"09448f2969c4475cab76bfd1205167f2\",\"status\":2},\"websocketId\":\"353a829b9a7145058d383346caed0993\",\"msgDate\":1562640842729}\u0000"
