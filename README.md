@@ -1,6 +1,8 @@
 ## development
-yarn Or npm i
+yarn && yarn dev
+## Or
+npm i && npm run dev
 
-yarn dev
+
 
 ### Enjoy it
